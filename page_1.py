@@ -45,9 +45,28 @@ if file is not None:
     rd_data = c_data.drop_duplicates()
     st.dataframe(rd_data)
 
-    st.subheader("Bar Chart:")
-    st.bar_chart(rd_data, x="Skill", y="Proficiency", stack=False)
+    list_  = file.columns.to_list() #gets the colum name from the file 
 
+    if list_:
+        xaxis = st.selectbox("select the value for X- axis", list_)
+
+        list_.remove(xaxis)
+
+        yaxis = st.selectbox("select the value for X- axis", list_)
+
+    chart = st.selectbox(
+    "Chart Type",
+    ["Bar", "Line", "Scatter"]
+    )
+
+    if chart == "Bar":
+        st.bar_chart(rd_data, x=xaxis, y=yaxis)
+
+    elif chart == "Line":
+        st.line_chart(rd_data, x=xaxis, y=yaxis)
+
+    else:
+        st.scatter_chart(rd_data, x=xaxis, y=yaxis)
 
 
 
