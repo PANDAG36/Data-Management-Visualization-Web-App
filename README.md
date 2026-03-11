@@ -10,6 +10,8 @@ home page:
 <img width="864" height="1022" alt="Screenshot 2026-03-09 123458" src="https://github.com/user-attachments/assets/5cdf3142-b6d9-46de-ab44-dd5fe50d9453" />
 page 1 --> Data Visualization:
 <img width="1919" height="1017" alt="Screenshot 2026-03-09 123546" src="https://github.com/user-attachments/assets/01423107-6a73-4e38-9b4e-cd45680a0de2" />
+<img width="1848" height="970" alt="Screenshot 2026-03-11 180207" src="https://github.com/user-attachments/assets/19284d33-3406-4396-acf3-80cadef55384" />
+
 
 page 2 --> Data Management [SQL]:
 
